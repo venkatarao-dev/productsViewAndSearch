@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-input {
+    border: none;
+    border-radius: 4px;
+    background-color: lightblue;
+
+}
+
+.search-section {
+    display: flex;
+    background-color: lightblue;
+    border-radius: 4px;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.variants-list {
+    list-style-type: none;
+}
+
+.search_results_container {
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    display: flex;
+}
+
+.result-card {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 30px;
+}
+
+.right-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Product_image {
+    width: 110px;
+    height: 120px;
+}
+
+.product_title {
+    margin-left: 25px;
+    font-family: "Roboto";
+    font-weight: 550;
+    padding-left: 12px;
+}
+
+.toggle_icons {
+    margin-top: 10px;
+}
+
+.toggle-btn {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.product_badge {
+    color: #ffffff;
+    font-family: "Roboto";
+    background-color: #2269c7;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px;
+    width: 40%;
+}
+
+.product_badge:empty {
+    background-color: transparent;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.product_card {
+    text-align: center;
+    width: 200px;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    margin: 10px;
+    border-radius: 5px;
+}
